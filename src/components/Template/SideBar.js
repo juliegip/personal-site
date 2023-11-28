@@ -18,6 +18,7 @@ const SideBar = () => (
         <h2>Julie Gip</h2>
         <p><a href="mailto:julie.gip@gmail.com">julie.gip@gmail.com</a></p>
       </header>
+      <ContactIcons />
     </section>
 
     <section className="blurb">
@@ -31,13 +32,12 @@ const SideBar = () => (
       </p> */}
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/" className="button">About Me</Link>}
         </li>
       </ul>
     </section>
     <SkillTag className="skilltag" tags={skills.map((skill) => skill.title)} />
     <section id="footer">
-      <ContactIcons />
       <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
     </section>
   </section>
