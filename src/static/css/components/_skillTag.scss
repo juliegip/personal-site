@@ -1,0 +1,21 @@
+.skilltag {
+
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 84px;
+        gap: 10px;
+      
+        @media screen and (min-width: 768px) {
+          margin-top: 20px;
+        }
+      
+        .text {
+          background-color:#004F4D;
+          color: white;
+          padding: 4px 29px;
+          border-radius: 10px;
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+      
