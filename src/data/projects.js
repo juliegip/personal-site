@@ -1,20 +1,20 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Booki Landing page',
+    subtitle: 'OC',
+    link: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
+    image: '/images/projects/booki.png',
+    date: 'February 2023',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'OpenClassrooms project :  '
+      + 'Landing page for a travel agency  '
+      + '- HTML CSS',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
+    title: 'ArchiWebos',
+    subtitle: "Création d'une page web dynamique avec Javascript",
+    link: 'https://github.com/juliegip/OC_DevWeb_P3_ArchiWebos',
     image: '/images/projects/harvest.jpg',
     date: '2015-09-20',
     desc:
@@ -23,25 +23,24 @@ const data = [
       + 'and nutrient deficiencies at an affordable price for the developing world.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
+    title: 'Nina Carducci',
+    subtitle: "Debug et optimisation d'un site de photographe",
     link: 'http://www.spacepotato.org',
     image: '/images/projects/spacepotato.jpg',
     date: '2015-06-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      "Optimiser les performances d'un site web"
+      + 'Utilisation des DevTools pour debugger un site web'
+      + 'Cahier de recette pour tester un site',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    title: 'kasa',
+    subtitle: "Création d'un application web de location immobilière avec React",
     image: '/images/projects/catdetector.jpg',
     date: '2015-05-15',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Animation CSS. Interface web avec SASS '
+      + 'Single Page Application avec React ',
   },
 ];
 
