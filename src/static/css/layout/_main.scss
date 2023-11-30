@@ -10,4 +10,13 @@
 		@include vendor('flex-grow', '1');
 		-ms-flex: 1;
 		width: 100%;
+		padding-left: (22em + _size(section-spacing));
+
+		@include breakpoint(small) {
+
+			margin: _size(section-spacing) 0 0 0;
+			min-width: 0;
+			padding: _size(section-spacing) 0 0 0;
+			width: 100%;
+		}
 	}
