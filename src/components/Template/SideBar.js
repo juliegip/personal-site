@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import ContactIcons from '../Contact/ContactIcons';
 import SkillTag from '../Resume/Skills/SkillTag';
 import { skills } from '../../data/resume/skills';
+import routes from '../../data/routes';
+import Navigation from './Navigation';
+
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -19,6 +22,7 @@ const SideBar = () => (
         <p><a href="mailto:julie.gip@gmail.com">julie.gip@gmail.com</a></p>
       </header>
       <ContactIcons />
+      <Navigation />
     </section>
 
     <section className="blurb">
@@ -32,14 +36,14 @@ const SideBar = () => (
       </p> */}
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/" className="button">About Me</Link>}
+          <Link to="/contact" className="button">Contact me</Link>
         </li>
       </ul>
     </section>
     <SkillTag className="skilltag" tags={skills.map((skill) => skill.title)} />
-    <section id="footer">
+    {/* <section id="footer">
       <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
-    </section>
+    </section> */}
   </section>
 );
 
