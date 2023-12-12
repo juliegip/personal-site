@@ -1,5 +1,9 @@
 const skills = [
   {
+    title: 'React',
+    category: ['Web Development', 'Javascript'],
+  },
+  {
     title: 'Javascript',
     category: ['Web Development', 'Languages', 'Javascript'],
   },
@@ -8,16 +12,12 @@ const skills = [
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'React',
-    category: ['Web Development', 'Javascript'],
+    title: 'Express.JS',
+    category: ['Web Development', 'Javascript']
   },
   {
     title: 'MongoDB',
     category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Express.JS',
-    category: ['Web Development', 'Javascript']
   },
   {
     title: 'SEO',

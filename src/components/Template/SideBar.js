@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import ContactIcons from '../Contact/ContactIcons';
 import SkillTag from '../Resume/Skills/SkillTag';
 import { skills } from '../../data/resume/skills';
-import routes from '../../data/routes';
 import Navigation from './Navigation';
 
 
@@ -41,9 +40,7 @@ const SideBar = () => (
       </ul>
     </section>
     <SkillTag className="skilltag" tags={skills.map((skill) => skill.title)} />
-    {/* <section id="footer">
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
-    </section> */}
+
   </section>
 );
 
