@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
-import Main from '../layouts/Main';
 
 const About = () => {
   const [markdown, setMarkdown] = useState('');
@@ -21,14 +20,11 @@ const About = () => {
     .filter((s) => s.length).length;
 
   return (
-    <Main
-      title="About"
-      description="Learn about Julie Gip"
-    >
+
       <article className="post markdown" id="about">
         <header>
           <div className="title">
-            <h2><Link to="/">About Me</Link></h2>
+            <h2>About Me</h2>
             <p>(in about {count} words)</p>
           </div>
         </header>
@@ -36,7 +32,7 @@ const About = () => {
           {markdown}
         </Markdown>
       </article>
-    </Main>
+  
   );
 };
 

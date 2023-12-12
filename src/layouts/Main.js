@@ -1,27 +1,34 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Navigation from '../components/Template/Navigation';
 import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
+import About from './About';
+import Resume from './Resume';
+import Projects from './Projects';
+
 const Main = (props) => (
-  <HelmetProvider>
+
+    <HelmetProvider>
     <ScrollToTop />
     <Helmet titleTemplate="%s | Julie Gip" defaultTitle="Julie Gip" defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
+
     <div id="wrapper">
-      {/* <Navigation /> */}
       <div id="main">
-        {props.children}
+        <Projects />
+        <About />
+        <Resume />
       </div>
       {props.fullPage ? null : <SideBar />}
     </div>
+
   </HelmetProvider>
-);
+
+  )
 
 Main.propTypes = {
   children: PropTypes.oneOfType([

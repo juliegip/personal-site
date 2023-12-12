@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Main from '../layouts/Main';
-
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import References from '../components/Resume/References';
@@ -18,14 +16,11 @@ const sections = {
 };
 
 const Resume = () => (
-  <Main
-    title="Resume"
-    description=" Julie Gip's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
-  >
+
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
+          <h2>Resume</h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
@@ -38,7 +33,7 @@ const Resume = () => (
         <Section key={name} />
       ))}
     </article>
-  </Main>
+  
 );
 
 export default Resume;
