@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <header id="header">
       <nav className="links">
-        <ul>
+        <ul id='navlist'>
           <button onClick={() => scrollToSection('projects')}>Projects</button>
           <button onClick={() => scrollToSection('about')}>About Me</button>
           <button onClick={() => scrollToSection('resume')}>Resume</button>

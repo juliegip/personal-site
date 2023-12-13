@@ -23,89 +23,12 @@
 			@include vendor('flex', '1');
 			height: inherit;
 			line-height: inherit;
-		
-		
 
 			ul {
-
 				list-style: none;
-			
-				li {
-					border-left: solid 1px _palette(border);
-                    padding:0 _size(section-spacing) * 0.2;
-			
-					&:first-child {
-						border-left: 0;
-						margin-left: 0;
-						
-					}
-
-					a {
-						border-bottom: 0;
-						font-family: _font(family-heading);
-						font-size: 0.7em;
-						font-weight: _font(weight-heading);
-						letter-spacing: _font(kerning-heading);
-						text-transform: uppercase;
-                        
-					}
-				}
 			}
 		}
 
-		.main {
-			height: inherit;
-			line-height: inherit;
-			text-align: right;
-
-			ul {
-				height: inherit;
-				line-height: inherit;
-
-				li {
-					border-left: solid 1px _palette(border);
-					height: inherit;
-					line-height: inherit;
-					white-space: nowrap;
-
-					> i {
-					    text-decoration: none;
-					    border-bottom: 0;
-					    overflow: hidden;
-					    position: relative;
-					    text-indent: 4em;
-							margin-right: 1.5em;
-					}
-
-					> * {
-						display: block;
-						float: left;
-					}
-
-					> a {
-						@include icon;
-						border-bottom: 0;
-						color: _palette(fg-light);
-						overflow: hidden;
-						position: relative;
-						text-indent: 4em;
-						width: 4em;
-
-						&:before {
-							display: block;
-							height: inherit;
-							left: 0;
-							line-height: inherit;
-							position: absolute;
-							text-align: center;
-							text-indent: 0;
-							top: 0;
-							width: inherit;
-						}
-					}
-				}
-			}
-		}
 
 		@include breakpoint(small) {
 			height: 2.75em;

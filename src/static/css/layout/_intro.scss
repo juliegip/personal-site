@@ -11,22 +11,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		.logo {
-			border-bottom: 0;
-			display: inline-block;
-			margin: 0 0 _size(element-margin) 0;
-			overflow: hidden;
-			position: relative;
-		
 
-			img {
-				width: 8em;
-				height: 8em;
-				object-fit: cover;
-				border-radius: 50%;
-				display: block;
-			}
-		}
 
 		header {
 			text-align: center;
@@ -50,10 +35,6 @@
 
 			> :last-child {
 				margin-bottom: 0;
-			}
-
-			.logo {
-				margin: 0 0 (_size(element-margin) * 0.25) 0;
 			}
 
 			header {

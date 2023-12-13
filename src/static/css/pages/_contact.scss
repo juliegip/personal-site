@@ -1,6 +1,12 @@
 // Contact page (/contact)
 
 #contact {
+  
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+
+  padding: 150px 50px;
 
   .email-at{
     

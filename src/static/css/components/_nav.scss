@@ -1,0 +1,26 @@
+#navlist {
+
+    display: flex;
+    margin: 0;
+    padding: 0 0 8px 0;
+
+    button {
+        box-shadow: none;
+        font-size: 0.7em;
+        height: _size(element-height) * 1;
+        margin: 2em 0;
+        
+    
+
+    &:hover {
+   
+        border-bottom: 1px _palette(accent) solid ;
+        border-color:_palette(accent) ;
+		color: _palette(accent) !important;
+    }
+}
+
+   
+    
+
+}
