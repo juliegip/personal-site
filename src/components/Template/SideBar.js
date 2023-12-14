@@ -21,17 +21,16 @@ const SideBar = () => (
         <p><a href="mailto:julie.gip@gmail.com">julie.gip@gmail.com</a></p>
       </header>
       <ContactIcons />
-      <Navigation />
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
       <p>Hello, I&apos;m Julie. I&apos;m a Web developer in transition. </p>
       <ul className="actions">
         <li>
           <Link to="/contact" className="button">Contact me</Link>
         </li>
       </ul>
+      <Navigation />
     </section>
     <SkillTag className="skilltag" tags={skills.map((skill) => skill.title)} />
 
