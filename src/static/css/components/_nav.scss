@@ -1,22 +1,39 @@
-#navlist {
+#nav {
 
-    display: flex;
+    ul {  
+    @include vendor('display', 'flex');
+    @include vendor('justify-content', 'space-between');
+    @include vendor('gap', '2.5em');
+
+    flex-wrap: nowrap;
     margin: 0;
     padding: 0 0 8px 0;
+    li {
+    background-color: inherit;
+    list-style: none;
 
-    button {
-        box-shadow: none;
-        font-size: 0.7em;
-        height: _size(element-height) * 1;
-        margin: 2em 0;
-        
-    
-
-    &:hover {
    
-        border-bottom: 1px _palette(accent) solid ;
-        border-color:_palette(accent) ;
-		color: _palette(accent) !important;
+
+        a {
+        
+            box-shadow: none;
+            font-size:1.1em;
+            text-transform: uppercase;
+        
+        
+
+            &:hover {
+                border-bottom: 1px _palette(accent) solid ;
+                border-color:_palette(accent) ;
+                color: _palette(accent) !important;
+            }
+            &.active {
+                border-bottom: 1px _palette(accent) solid ;
+                border-color:_palette(accent) ;
+                color: _palette(accent) !important;
+            }
+
+        }
     }
 }
 

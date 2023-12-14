@@ -3,7 +3,8 @@ const data = [
   {
     title: 'Booki Landing page',
     subtitle: 'OC',
-    link: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
+    link: 'https://juliegip.github.io/OC_DevWeb_P2_booki/',
+    // link: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
     image: '/images/projects/booki.png',
     date: 'February 2023',
     desc:
@@ -23,7 +24,7 @@ const data = [
   {
     title: 'Nina Carducci',
     subtitle: "Debug et optimisation d'un site de photographe",
-    link: 'http://www.spacepotato.org',
+    link: 'https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/#services',
     image: '/images/projects/NinaCarducci.png',
     date: '2015-06-28',
     desc:
@@ -34,6 +35,7 @@ const data = [
   {
     title: 'kasa',
     subtitle: "Création d'un application web de location immobilière avec React",
+    link:'',
     image: '/images/projects/Kasa.png',
     date: '2015-05-15',
     desc:
