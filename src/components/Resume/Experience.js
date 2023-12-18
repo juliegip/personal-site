@@ -26,6 +26,7 @@ Experience.propTypes = {
     startDate: PropTypes.string,
     endDate: PropTypes.string,
     highlights: PropTypes.arrayOf(PropTypes.string),
+    location: PropTypes.string,
     summary: PropTypes.string,
   })),
 };

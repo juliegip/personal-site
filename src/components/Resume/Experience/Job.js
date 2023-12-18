@@ -11,7 +11,7 @@ const Job = ({
   <article className="jobs-container">
     <header>
       <h4><a href={url}>{name}</a> - {position}</h4>
-      <h6 className='location'>{location}</h6>
+      {location && <h6 className='location'>{location}</h6>}
       <p className="daterange"> {dayjs(startDate).format('MMMM YYYY')} - {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}</p>
     </header>
     {summary ? (
@@ -48,7 +48,9 @@ Job.propTypes = {
     endDate: PropTypes.string,
     summary: PropTypes.string,
     highlights: PropTypes.arrayOf(PropTypes.string.isRequired),
+    location: PropTypes.string, 
   }).isRequired,
 };
+
 
 export default Job;
