@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 
 const Cell = ({ data }) => (
   <div className="cell-container">
@@ -14,6 +16,7 @@ const Cell = ({ data }) => (
       </a>
       <div className="description">
         <p>{data.desc}</p>
+        <FontAwesomeIcon className="descr-icon" icon={faGithub} />
       </div>
     </article>
   </div>
