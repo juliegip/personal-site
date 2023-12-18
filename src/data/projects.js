@@ -35,7 +35,7 @@ const data = [
   {
     title: 'kasa',
     subtitle: "Création d'un application web de location immobilière avec React",
-    link:'',
+    link:'https://oc-dev-web-p6-kasa.vercel.app/',
     image: '/images/projects/Kasa.png',
     date: '2015-05-15',
     desc:
