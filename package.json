@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://juliegip.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/juliegip/personal-site.git"
   },
   "engines": {
     "node": ">=16.x"
@@ -14,8 +14,7 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "predeploy": "npm run build && react-snap",
-    "start": "react-scripts start",
-    "test": "npx jest"
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
