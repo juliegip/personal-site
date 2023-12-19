@@ -8,11 +8,11 @@ const skills = [
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
-    title: 'Node.JS',
+    title: 'NodeJS',
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Express.JS',
+    title: 'ExpressJS',
     category: ['Web Development', 'Javascript']
   },
   {

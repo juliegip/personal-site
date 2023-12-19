@@ -16,17 +16,16 @@ const data = [
     title: 'ArchiWebos',
     subtitle: "Création d'une page web dynamique avec Javascript",
     link: 'https://github.com/juliegip/OC_DevWeb_P3_ArchiWebos',
-    code:'',
+    code:'https://github.com/juliegip/OC_DevWeb_P3_ArchiWebos.git',
     image: '/images/projects/ArchiWebos.png',
     date: 'March 2023',
-    desc:
-      'Create a dynamic web page with Javascript',
+    desc: 'Create a dynamic web page with Javascript',
   },
   {
     title: 'Nina Carducci',
     subtitle: "Debug et optimisation d'un site de photographe",
     link: 'https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/#services',
-    code:'',
+    code:'https://github.com/juliegip/OC_DevWev_P5_NinaCarducci',
     image: '/images/projects/NinaCarducci.png',
     date: '2015-06-28',
     desc:
@@ -38,7 +37,7 @@ const data = [
     title: 'kasa',
     subtitle: "Création d'un application web de location immobilière avec React",
     link:'https://oc-dev-web-p6-kasa.vercel.app/',
-    code:'',
+    code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
     image: '/images/projects/Kasa.png',
     date: '2015-05-15',
     desc:
