@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
-import References from '../components/Resume/References';
+import Education from '../Resume/Education';
+import Experience from '../Resume/Experience';
+import References from '../Resume/References';
 
-import degrees from '../data/resume/degrees';
-import work from '../data/resume/work';
+import degrees from '../../data/resume/degrees';
+import work from '../../data/resume/work';
 
 // NOTE: sections are displayed in order defined.
 const sections = {

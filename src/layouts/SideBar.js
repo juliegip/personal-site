@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ContactIcons from '../Contact/ContactIcons';
-import SkillTag from '../Resume/Skills/SkillTag';
-import { skills } from '../../data/resume/skills';
-import Navigation from './Navigation';
+import ContactIcons from '../components/Contact/ContactIcons';
+import SkillTag from '../components/Resume/Skills/SkillTag';
+import { skills } from '../data/resume/skills';
+import Navigation from '../components/Template/Navigation';
 
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
-
 
 const SideBar = () => (
   <section id="sidebar">
