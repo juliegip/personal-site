@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const SkillTag = ({ tags }) => (
-  <div className="skilltag">
+  <span className="skilltag">
    {tags 
   &&
   tags.map((tag, index) => (
@@ -10,7 +10,7 @@ const SkillTag = ({ tags }) => (
       {tag}
       </span>
     ))}
-  </div>
+  </span>
 );
 
 SkillTag.propTypes = {
