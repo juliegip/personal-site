@@ -2,7 +2,7 @@
 
     ul {  
     @include vendor('display', 'flex');
-    @include vendor('justify-content', 'space-between');
+    @include vendor('justify-content', 'space-around');
     @include vendor('gap', '2.5em');
 
     flex-wrap: nowrap;

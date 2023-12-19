@@ -1,12 +1,11 @@
 import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import SideBar from '../components/Template/SideBar';
+import SideBar from './SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
-
-import About from './About';
-import Resume from './Resume';
-import Projects from './Projects';
+import About from '../components/Template/About';
+import Resume from '../components/Template/Resume';
+import Projects from '../components/Template/Projects';
 
 const Main = (props) => (
 

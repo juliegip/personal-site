@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+import Cell from '../../components/Projects/Cell';
+import data from '../../data/projects';
 
 const Projects = () => (
   
