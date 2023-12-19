@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+import SkillTag from '../Resume/Skills/SkillTag';
 
 const Cell = ({ data }) => (
   <div className="cell-container">
@@ -15,7 +16,7 @@ const Cell = ({ data }) => (
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </a>
       <div className="description">
-        <p>{data.desc}</p>
+        <p>{data.desc}  <SkillTag tags={data.skills} /></p>
         <a href={data.code} target='_blank'>
         <FontAwesomeIcon className="descr-icon" icon={faGithub} size='lg'/>
           </a> 
@@ -30,8 +31,9 @@ Cell.propTypes = {
     link: PropTypes.string,
     code: PropTypes.string,
     image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
+    date: PropTypes.string,
     desc: PropTypes.string.isRequired,
+    skills :PropTypes.array,
   }).isRequired,
 };
 

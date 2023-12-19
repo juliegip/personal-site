@@ -7,10 +7,8 @@ const data = [
     code: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
     image: '/images/projects/booki.png',
     date: 'February 2023',
-    desc:
-      'OpenClassrooms project :  '
-      + 'Landing page for a travel agency  '
-      + '- HTML CSS',
+    desc: 'Travel agency landing page integration developped from a Figma design',
+    skills:['HTML', 'CSS', 'Figma']
   },
   {
     title: 'ArchiWebos',
@@ -20,6 +18,7 @@ const data = [
     image: '/images/projects/ArchiWebos.png',
     date: 'March 2023',
     desc: 'Create a dynamic web page with Javascript',
+    skills: ['Javascript']
   },
   {
     title: 'Nina Carducci',
@@ -27,11 +26,11 @@ const data = [
     link: 'https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/#services',
     code:'https://github.com/juliegip/OC_DevWev_P5_NinaCarducci',
     image: '/images/projects/NinaCarducci.png',
-    date: '2015-06-28',
+    date:'April 2023',
     desc:
-      "Optimiser les performances d'un site web"
-      + 'Utilisation des DevTools pour debugger un site web'
+      "Optimiser les performances d'un site web \nUtilisation des DevTools pour debugger un site web"
       + 'Cahier de recette pour tester un site',
+      skills:['Debug', 'SEO' ]
   },
   {
     title: 'kasa',
@@ -39,11 +38,23 @@ const data = [
     link:'https://oc-dev-web-p6-kasa.vercel.app/',
     code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
     image: '/images/projects/Kasa.png',
-    date: '2015-05-15',
+    date: 'Octobre 2023',
+    desc:` Animation CSS. Interface web avec SASS
+     Single Page Application avec React`,
+    skills : ['React', 'SASS']
+  },
+  {
+    title: 'Mon Vieux Grimoire',
+    subtitle: "Développement du back-end",
+    code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
+    image: '',
+    date: 'November 2023',
     desc:
       'Animation CSS. Interface web avec SASS '
       + 'Single Page Application avec React ',
+    skills : ['API', 'NodeJS', 'MongoDB']
   },
+  
 ];
 
 export default data;

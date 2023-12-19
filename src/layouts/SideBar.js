@@ -31,7 +31,7 @@ const SideBar = () => (
       </ul>
       <Navigation />
     </section>
-    <SkillTag className="skilltag" tags={skills.map((skill) => skill.title)} />
+    <SkillTag tags={skills.map((skill) => skill.title)} />
 
   </section>
 );

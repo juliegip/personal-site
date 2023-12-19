@@ -38,19 +38,33 @@
 
     p {
       width: 100%;
-      font-size: 0.9rem;
+      font-size: 0.7rem;
       margin: 0;
-      padding: 1.25em;
+      padding: _size(section-spacing-small) * 0.5;
       border-radius: 0 0 10px 10px;
       border-bottom: solid 1px _palette(border);
       border-right: solid 1px _palette(border);
       background-color: _palette(fg-light);
       color: #1a1a1a;
-      font-weight: 600;
+      font-weight: 400;
       font-family: "Raleway", Helvetica, sans-serif;
       z-index: 1000;
       transition: all 0.1s;
       -webkit-transition: all 0.1s ease-in-out;
+
+      .skilltag {
+        margin-top: 0;
+        justify-content: start;
+      
+        .text{
+          font-size: 8px;
+          background-color: _palette(fg-light);
+          color: _palette(fg-bold);
+          border: 1px _palette(fg) solid;
+          padding: 2px 15px;
+      
+        }
+      }
     }
 
     p:hover {
