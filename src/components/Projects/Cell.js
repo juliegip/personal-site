@@ -16,7 +16,9 @@ const Cell = ({ data }) => (
       </a>
       <div className="description">
         <p>{data.desc}</p>
-        <FontAwesomeIcon className="descr-icon" icon={faGithub} />
+        <a href={data.code} target='_blank'>
+        <FontAwesomeIcon className="descr-icon" icon={faGithub} size='lg'/>
+          </a> 
       </div>
     </article>
   </div>
@@ -26,6 +28,7 @@ Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
+    code: PropTypes.string,
     image: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,

@@ -4,7 +4,7 @@ const data = [
     title: 'Booki Landing page',
     subtitle: 'OC',
     link: 'https://juliegip.github.io/OC_DevWeb_P2_booki/',
-    // link: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
+    code: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
     image: '/images/projects/booki.png',
     date: 'February 2023',
     desc:
@@ -16,6 +16,7 @@ const data = [
     title: 'ArchiWebos',
     subtitle: "Création d'une page web dynamique avec Javascript",
     link: 'https://github.com/juliegip/OC_DevWeb_P3_ArchiWebos',
+    code:'',
     image: '/images/projects/ArchiWebos.png',
     date: 'March 2023',
     desc:
@@ -25,6 +26,7 @@ const data = [
     title: 'Nina Carducci',
     subtitle: "Debug et optimisation d'un site de photographe",
     link: 'https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/#services',
+    code:'',
     image: '/images/projects/NinaCarducci.png',
     date: '2015-06-28',
     desc:
@@ -36,6 +38,7 @@ const data = [
     title: 'kasa',
     subtitle: "Création d'un application web de location immobilière avec React",
     link:'https://oc-dev-web-p6-kasa.vercel.app/',
+    code:'',
     image: '/images/projects/Kasa.png',
     date: '2015-05-15',
     desc:

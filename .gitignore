@@ -47,3 +47,6 @@ build/
 
 # Nohup
 nohup.out
+
+#Zone.Identifier
+*:Zone.Identifier
