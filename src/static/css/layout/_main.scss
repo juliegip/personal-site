@@ -18,7 +18,7 @@ body {
 		width: 100%;
 		padding-left: (22em + _size(section-spacing));
 
-		@include breakpoint(large) {
+		@include breakpoint(medium) {
 			margin: _size(section-spacing) 0 0 0;
 			min-width: 0;
 			padding: _size(section-spacing) 0 0 0;

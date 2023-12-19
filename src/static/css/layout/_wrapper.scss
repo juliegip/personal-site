@@ -13,19 +13,10 @@
 		margin: 0 auto;
 		max-width: 100%;
 		opacity: 1;
-		padding: (_size(section-spacing) * 1.5);
+		padding: _size(section-spacing);
 		width: 90em;
 
-
-		@include breakpoint(xlarge) {
-			padding: _size(section-spacing);
-		}
-
-		@include breakpoint(large) {
-			
-		}
-
-		@include breakpoint(small) {
+		@include breakpoint(medium) {
 			padding: _size(section-spacing-small);
 			flex-direction: column-reverse;
 		}
