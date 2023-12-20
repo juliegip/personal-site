@@ -11,6 +11,12 @@ const degrees = [
     link: 'https://www.cbs.dk/en',
     year: 2010,
   },
+  {
+    school: 'Openclassrooms',
+    degree: 'Web development',
+    link: 'https://openclassrooms.com/fr/paths/899-developpeur-web',
+    year: 2023,
+  },
 ];
 
 export default degrees;
