@@ -26,7 +26,7 @@ const skills = [
   {
     title: 'Wordpress',
     category: ['CMS'],
-  }
+  },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 

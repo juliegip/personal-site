@@ -17,19 +17,17 @@ const data = [
     code:'https://github.com/juliegip/OC_DevWeb_P3_ArchiWebos.git',
     image: '/images/projects/ArchiWebos.png',
     date: 'March 2023',
-    desc: 'Create a dynamic web page with Javascript',
+    desc: "Website for an architect : creation of a dynamic page connected to an API",
     skills: ['Javascript']
   },
   {
     title: 'Nina Carducci',
     subtitle: "Debug et optimisation d'un site de photographe",
-    link: 'https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/#services',
+    link: 'https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/',
     code:'https://github.com/juliegip/OC_DevWev_P5_NinaCarducci',
     image: '/images/projects/NinaCarducci.png',
     date:'April 2023',
-    desc:
-      "Optimiser les performances d'un site web \nUtilisation des DevTools pour debugger un site web"
-      + 'Cahier de recette pour tester un site',
+    desc: "Performance optimisation of a website for a photographer",
       skills:['Debug', 'SEO' ]
   },
   {
@@ -39,20 +37,17 @@ const data = [
     code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
     image: '/images/projects/Kasa.png',
     date: 'Octobre 2023',
-    desc:` Animation CSS. Interface web avec SASS
-     Single Page Application avec React`,
-    skills : ['React', 'SASS']
+    desc:` Front End development of an app for a rental agency`,
+    skills : ['React', 'React-router','SASS', 'CSS animation']
   },
   {
     title: 'Mon Vieux Grimoire',
     subtitle: "Développement du back-end",
     code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
-    image: '',
+    image: '/images/projects/monvieuxgrimoire.png',
     date: 'November 2023',
-    desc:
-      'Animation CSS. Interface web avec SASS '
-      + 'Single Page Application avec React ',
-    skills : ['API', 'NodeJS', 'MongoDB']
+    desc:'Back End development of an app for a book rating website',
+    skills : ['API', 'NodeJS', 'Express', 'MongoDB']
   },
   
 ];
