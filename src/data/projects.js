@@ -7,7 +7,7 @@ const data = [
     code: 'https://github.com/juliegip/OC_DevWeb_P2_booki',
     image: '/images/projects/booki.png',
     date: 'February 2023',
-    desc: 'Travel agency landing page integration developped from a Figma design',
+    desc: 'Travel agency landing page integration developped from a Figma design - Openclassrooms project',
     skills:['HTML', 'CSS', 'Figma']
   },
   {
@@ -17,7 +17,7 @@ const data = [
     code:'https://github.com/juliegip/OC_DevWeb_P3_ArchiWebos.git',
     image: '/images/projects/ArchiWebos.png',
     date: 'March 2023',
-    desc: "Website for an architect : creation of a dynamic page connected to an API",
+    desc: "Website for an architect : creation of a dynamic page connected to an API - Openclassrooms project",
     skills: ['Javascript']
   },
   {
@@ -27,7 +27,7 @@ const data = [
     code:'https://github.com/juliegip/OC_DevWev_P5_NinaCarducci',
     image: '/images/projects/NinaCarducci.png',
     date:'April 2023',
-    desc: "Performance optimisation of a website for a photographer",
+    desc: "Performance optimisation of a website for a photographer - Openclassrooms project",
       skills:['Debug', 'SEO' ]
   },
   {
@@ -37,7 +37,7 @@ const data = [
     code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
     image: '/images/projects/Kasa.png',
     date: 'Octobre 2023',
-    desc:` Front End development of an app for a rental agency`,
+    desc:` Front End development of an app for a rental agency - Openclassrooms project`,
     skills : ['React', 'React-router','SASS', 'CSS animation']
   },
   {
@@ -46,7 +46,7 @@ const data = [
     code:'https://github.com/juliegip/OC_DevWeb_P6_Kasa.git',
     image: '/images/projects/monvieuxgrimoire.png',
     date: 'November 2023',
-    desc:'Back End development of an app for a book rating website',
+    desc:'Back End development of an app for a book rating website - Openclassrooms project',
     skills : ['API', 'NodeJS', 'Express', 'MongoDB']
   },
   
