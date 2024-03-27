@@ -1,11 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import ContactIcons from '../components/Contact/ContactIcons';
-import SkillTag from '../components/Resume/Skills/SkillTag';
-import { skills } from '../data/resume/skills';
-import Navigation from '../components/Template/Navigation';
-
+import ContactIcons from "../components/Contact/ContactIcons";
+import SkillTag from "../components/Resume/Skills/SkillTag";
+import { skills } from "../data/resume/skills";
+import Navigation from "../components/Template/Navigation";
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -17,22 +16,28 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Julie Gip</h2>
-        <p><a href="mailto:julie.gip@gmail.com">julie.gip@gmail.com</a></p>
+        <p>
+          <a href="mailto:julie.gip@gmail.com">julie.gip@gmail.com</a>
+        </p>
       </header>
       <ContactIcons />
     </section>
 
     <section className="blurb">
-      <p>Hello, I&apos;m Julie. I&apos;m a Web developer in transition. </p>
+      <p>
+        Hello, I&apos;m Julie, passionate about coding and exploring the web. I
+        love creating and learning new things in my own projects.{" "}
+      </p>
       <ul className="actions">
         <li>
-          <Link to="/contact" className="button">Contact me</Link>
+          <Link to="/contact" className="button">
+            Contact me
+          </Link>
         </li>
       </ul>
       <Navigation />
     </section>
     <SkillTag tags={skills.map((skill) => skill.title)} />
-
   </section>
 );
 
